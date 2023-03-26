@@ -43,6 +43,9 @@ scaffolds-xxx.css.gz
 % RAILS_SERVE_STATIC_FILES=1 RAILS_ENV=production bin/rails s
 ```
 
+### Sprocketsがデフォルトで提供している機能
+- https://github.com/rails/sprockets#default-directives
+
 ## rails-ujs
 - data属性を利用することでJSの機能を呼び出せる
 - HTTPリクエストをAjax化するための機能もある
