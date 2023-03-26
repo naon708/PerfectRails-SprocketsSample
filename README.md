@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### SprocketsによるCSSの管理
+- `*=`で始まる行はSprocketsが解釈するためのディレクティブ(コメントアウトではない)
+- `require_*`での読み込み順に注意
+- https://github.com/rails/sprockets#default-directives
