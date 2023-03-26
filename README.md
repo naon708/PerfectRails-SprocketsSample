@@ -1,5 +1,4 @@
-# README
-
+## Sprockets
 ### SprocketsによるCSSの管理
 - `*=`で始まる行はSprocketsが解釈するためのディレクティブ(コメントアウトではない)
 - `require_*`での読み込み順に注意
@@ -43,3 +42,11 @@ scaffolds-xxx.css.gz
 # 一時的に`public/`をRails自身で配信するように環境変数を指定
 % RAILS_SERVE_STATIC_FILES=1 RAILS_ENV=production bin/rails s
 ```
+
+## rails-ujs
+- data属性を利用することでJSの機能を呼び出せる
+- HTTPリクエストをAjax化するための機能もある
+
+## Turbolinks
+- https://github.com/turbolinks/turbolinks
+- https://github.com/turbolinks/turbolinks-rails
